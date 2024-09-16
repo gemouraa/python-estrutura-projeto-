@@ -3,6 +3,9 @@ class Endereco:
         self.logradouro = logradouro
         self.numero = numero
         
+        
     def __str__(self) -> str:
         return (f"\nLogradouro: {self.logradouro}"
                 f"\nNúmero: {self.numero}")    
+        
+     
